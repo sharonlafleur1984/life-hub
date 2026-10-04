@@ -1,4 +1,7 @@
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vitest/config';
+
+const pkg = (p: string) => fileURLToPath(new URL(p, import.meta.url));
 
 export default defineConfig({
   test: {
@@ -11,8 +14,8 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@life-hub/domain': new URL('./packages/domain/src/index.ts', import.meta.url).pathname,
-      '@life-hub/curation': new URL('./packages/curation/src/index.ts', import.meta.url).pathname,
+      '@life-hub/domain': pkg('./packages/domain/src/index.ts'),
+      '@life-hub/curation': pkg('./packages/curation/src/index.ts'),
     },
   },
 });

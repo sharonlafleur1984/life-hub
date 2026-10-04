@@ -2,8 +2,14 @@
   "name": "life-hub",
   "private": true,
   "type": "module",
-  "workspaces": ["packages/*", "packages/adapters/*", "apps/*"],
-  "engines": { "node": ">=22" },
+  "workspaces": [
+    "packages/*",
+    "packages/adapters/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "lint": "eslint .",
     "format": "prettier --check .",
