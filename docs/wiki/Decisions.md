@@ -1,6 +1,6 @@
 # Decisions
 
-**Last updated:** October 4, 2026
+**Last updated:** October 5, 2026
 
 Two kinds of decision, two homes. Nothing is kept in both.
 
@@ -15,4 +15,6 @@ Research in this wiki informs decisions but does not record them. When a researc
 
 - **Public repo, code and research only.** No data, no secrets, no personal details. Household documents stay in Notion. Decided 26 Sep 2026.
 - **Set up like After Graduation.** Wiki pages edited in `docs/wiki/` and published on merge; a Documents index with a read-this-when column; every document also gets one row in the private Notion index. Decided 26 Sep 2026.
-- **Deliberately deprioritized code work.** The monorepo would make the daily jobs cheaper and testable but adds no life coverage, so it sits below the household work. Decided 5 Sep 2026.
+- **Three homes.** Product and code live in this repo. Household documents live in Notion. Physical files live in Google Drive, linked from Notion. Decided 5 Oct 2026.
+- **The Life Hub becomes a real web app.** React, TypeScript and Storybook, hosted on Netlify, data in Supabase. The Claude artifact is the wireframe until then. See [ADR 0004](https://github.com/sharonlafleur1984/life-hub/blob/main/docs/adr/0004-web-app-replaces-artifact.md). Decided Oct 2026.
+- **Code work is a priority.** Reverses the 5 Sep 2026 decision to deprioritize it below the household work. Decided Oct 2026.

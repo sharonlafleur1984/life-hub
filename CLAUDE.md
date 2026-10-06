@@ -4,11 +4,12 @@ Start here. This file tells Claude (and any developer) where everything lives, s
 
 ## What this is
 
-Life Hub: a household operating system run by Claude, with Notion as the system of record. One house manager coordinates eight life-area specialists, each a Claude skill. This repo holds the code-facing side: the `life-hub` TypeScript monorepo (planned, see the Repo Plan in Notion) and the public wiki, including research the house relies on.
+Life Hub: a household operating system run by Claude. One house manager coordinates eight life-area specialists, each a Claude skill. This repo holds the code-facing side: the `life-hub` TypeScript monorepo, which is becoming the Life Hub web app, and the public wiki, including research the house relies on.
 
 ## Rules
 
 - **How Sharon works:** the process, skills and templates live in [how-i-work](https://github.com/sharonlafleur1984/how-i-work). This file only covers what's specific to Life Hub.
+- **Three homes.** Product and code live in this repo. Household documents live in Notion, which is private. Physical files (scans, PDFs, leases) live in Google Drive, one folder per area, and Notion links to them. Nothing lives in two places.
 - **Public repo, code and research only.** No data, no secrets, no personal details, no account identifiers, no health details. Household documents stay in Notion, which is private. If a page needs a household detail to make sense, it does not belong here.
 - **Specialist names stay in the household.** The house's internal names for its specialists never appear in this repo. Use the role instead: house manager, parenting specialist, finance specialist, and so on.
 - **No em dashes** in anything written for Sharon.
@@ -35,4 +36,5 @@ When you add or remove a document, update its row in `docs/wiki/Documents.md` in
 
 - Household documents, decisions and the document index: Notion, Life Hub, Project Documents
 - Tasks: Notion, Life Hub, To Do
+- Physical files: Google Drive, one folder per area, each linked from the Notion Document Index
 - The Blueprint and the Idea Bench: Claude artifacts, linked from Project Documents
