@@ -10,3 +10,4 @@ coverage/
 # Private, never commit
 Claude outputs/
 vitest.config.ts.timestamp-*
+*.tsbuildinfo

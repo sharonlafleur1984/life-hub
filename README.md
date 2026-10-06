@@ -11,16 +11,16 @@ authenticating.
 
 ## Layout
 
-| Path | What lives there |
-|---|---|
-| `packages/domain` | The semantic layer. Zod schemas are the source of truth; types are derived. Knows nothing about any API. |
-| `packages/adapters/*` | One per source. Maps raw API responses to domain objects. Every provider quirk is absorbed here. |
-| `packages/curation` | The rules: ranking, the button policy, suggestion aging. Pure functions, no I/O. |
-| `packages/render` | Curated payload to dashboard JSON. |
-| `apps/daily-refresh` | What the scheduled job runs. |
-| `apps/dashboard` | The published artifact shell. |
-| `contracts` | The versioned agreement between job and page. |
-| `docs/adr` | Why things are the way they are. |
+| Path                  | What lives there                                                                                         |
+| --------------------- | -------------------------------------------------------------------------------------------------------- |
+| `packages/domain`     | The semantic layer. Zod schemas are the source of truth; types are derived. Knows nothing about any API. |
+| `packages/adapters/*` | One per source. Maps raw API responses to domain objects. Every provider quirk is absorbed here.         |
+| `packages/curation`   | The rules: ranking, the button policy, suggestion aging. Pure functions, no I/O.                         |
+| `packages/render`     | Curated payload to dashboard JSON.                                                                       |
+| `apps/daily-refresh`  | What the scheduled job runs.                                                                             |
+| `apps/dashboard`      | The published artifact shell.                                                                            |
+| `contracts`           | The versioned agreement between job and page.                                                            |
+| `docs/adr`            | Why things are the way they are.                                                                         |
 
 ## Working on it
 

@@ -2,10 +2,16 @@ import { describe, expect, it } from 'vitest';
 import type { AttentionItem } from '@life-hub/domain';
 import { rankAttention } from '../src/rank.js';
 
-const base = (over: Partial<AttentionItem> & Pick<AttentionItem, 'id'>): AttentionItem => ({
+const base = (
+  over: Partial<AttentionItem> & Pick<AttentionItem, 'id'>,
+): AttentionItem => ({
   source: 'gmail',
   sourceLabel: 'Test',
-  sourceLink: { kind: 'gmail', href: 'https://mail.google.com/mail/u/0/#all/1', label: 'Open' },
+  sourceLink: {
+    kind: 'gmail',
+    href: 'https://mail.google.com/mail/u/0/#all/1',
+    label: 'Open',
+  },
   summary: 'something',
   urgency: 'fyi',
   topics: [],

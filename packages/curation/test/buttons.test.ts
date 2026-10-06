@@ -7,7 +7,11 @@ const item = (topics: AttentionItem['topics']): AttentionItem => ({
   id: 'x',
   source: 'gmail',
   sourceLabel: 'Test',
-  sourceLink: { kind: 'gmail', href: 'https://mail.google.com/mail/u/0/#all/1', label: 'Open' },
+  sourceLink: {
+    kind: 'gmail',
+    href: 'https://mail.google.com/mail/u/0/#all/1',
+    label: 'Open',
+  },
   summary: 'something',
   urgency: 'action',
   topics,
@@ -20,8 +24,11 @@ describe('action button policy', () => {
     expect(mayHaveAction(item([]))).toBe(true);
   });
 
-  it.each(['money', 'health', 'credentials'] as const)('strips the button on %s items', (topic) => {
-    expect(stripDisallowedActions(item([topic])).action).toBeUndefined();
-    expect(mayHaveAction(item([topic]))).toBe(false);
-  });
+  it.each(['money', 'health', 'credentials'] as const)(
+    'strips the button on %s items',
+    (topic) => {
+      expect(stripDisallowedActions(item([topic])).action).toBeUndefined();
+      expect(mayHaveAction(item([topic]))).toBe(false);
+    },
+  );
 });

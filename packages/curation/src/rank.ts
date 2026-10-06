@@ -19,7 +19,8 @@ export function rankAttention(items: readonly AttentionItem[]): AttentionItem[] 
       if (aDue !== null && bDue === null) return -1;
       if (aDue === null && bDue !== null) return 1;
 
-      const byMoney = Number(b.item.topics.includes('money')) - Number(a.item.topics.includes('money'));
+      const byMoney =
+        Number(b.item.topics.includes('money')) - Number(a.item.topics.includes('money'));
       if (byMoney !== 0) return byMoney;
 
       return a.index - b.index;
