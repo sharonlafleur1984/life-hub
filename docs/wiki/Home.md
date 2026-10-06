@@ -1,6 +1,6 @@
 # Life Hub: Dashboard
 
-**Last updated:** October 4, 2026
+**Last updated:** October 5, 2026
 
 A household operating system run by Claude, with Notion as the system of record. One house manager coordinates eight life-area specialists, each a Claude skill. The owner should only see what needs her, with the work already done.
 
@@ -12,12 +12,12 @@ A household operating system run by Claude, with Notion as the system of record.
 
 ## At a glance
 
-|                           |                                                                                                                                                                                                        |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Where we are**          | The house runs on Claude skills and scheduled runs with Notion as the record. Three of eight specialists have skills; five are being written. The code side is planned and deliberately deprioritized. |
-| **What this wiki holds**  | Research the house relies on, with sources and confidence tags, and the documents index.                                                                                                               |
-| **What it does not hold** | Household data, decisions, tasks or anything personal. Those live in Notion, privately.                                                                                                                |
-| **Next milestone**        | Finance specialist skill written; one writer rule adopted in the house manager.                                                                                                                        |
+|                           |                                                                                                                                                                                                                   |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Where we are**          | The house runs on Claude skills and scheduled runs with Notion as the record. Four of eight specialists have skills; four are being written. The code side is now a priority: the Life Hub is becoming a web app. |
+| **What this wiki holds**  | Research the house relies on, with sources and confidence tags, and the documents index.                                                                                                                          |
+| **What it does not hold** | Household data, decisions, tasks or anything personal. Those live in Notion, privately.                                                                                                                           |
+| **Next milestone**        | Finance specialist skill written; one writer rule adopted in the house manager.                                                                                                                                   |
 
 ## Research
 

@@ -1,6 +1,6 @@
 # Documents
 
-**Last updated:** October 4, 2026
+**Last updated:** October 5, 2026
 
 Every document in this project's repository, and when to open it. If none of these match what you need, don't open anything else.
 
@@ -24,6 +24,6 @@ Private files (household records, decisions, tasks, anything personal) aren't he
 | [CLAUDE.md](https://github.com/sharonlafleur1984/life-hub/blob/main/CLAUDE.md)                                      | You're an AI or developer starting work: the rules for this repo                           |
 | [How I work](https://github.com/sharonlafleur1984/how-i-work)                                                       | You want Sharon's process, the full Claude skills, or the templates this repo started from |
 | [Wiki publishing setup](https://github.com/sharonlafleur1984/life-hub/blob/main/.github/workflows/publish-wiki.yml) | The wiki didn't update after a merge                                                       |
-| `docs/adr/`                                                                                                         | A code-only architecture decision. Empty until code work starts                            |
+| [`docs/adr/`](https://github.com/sharonlafleur1984/life-hub/tree/main/docs/adr)                                     | Checking why the code is built the way it is. One short record per architecture decision   |
 
 **Adding or removing a document?** Update its row here in the same pull request, and in Sharon's private Notion index.
