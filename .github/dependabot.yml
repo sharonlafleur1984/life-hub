@@ -1,0 +1,23 @@
+# Weekly dependency updates, grouped into one pull request per ecosystem.
+# Security fixes still arrive as soon as they exist (repo setting).
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      timezone: America/Denver
+    open-pull-requests-limit: 5
+    groups:
+      npm-updates:
+        patterns: ['*']
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      timezone: America/Denver
+    groups:
+      actions-updates:
+        patterns: ['*']
