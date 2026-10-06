@@ -1,6 +1,6 @@
 # Life Hub: Dashboard
 
-**Last updated:** October 5, 2026
+**Last updated:** October 6, 2026
 
 A household operating system run by Claude, with Notion as the system of record. One house manager coordinates eight life-area specialists, each a Claude skill. The owner should only see what needs her, with the work already done.
 
@@ -15,7 +15,7 @@ A household operating system run by Claude, with Notion as the system of record.
 |                           |                                                                                                                                                                                                                   |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Where we are**          | The house runs on Claude skills and scheduled runs with Notion as the record. Four of eight specialists have skills; four are being written. The code side is now a priority: the Life Hub is becoming a web app. |
-| **What this wiki holds**  | Research the house relies on, with sources and confidence tags, and the documents index.                                                                                                                          |
+| **What this wiki holds**  | The [Roadmap](Roadmap), product ideas in the [Backlog](Backlog), research the house relies on, and the documents index.                                                                                           |
 | **What it does not hold** | Household data, decisions, tasks or anything personal. Those live in Notion, privately.                                                                                                                           |
 | **Next milestone**        | One writer rule adopted in the house manager. The finance specialist skill is done.                                                                                                                               |
 
