@@ -2,11 +2,12 @@
 
 **Last updated:** October 6, 2026
 
-| Now                                                                                                                                                                 | Next                                                                                                        | Later                                                                              |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| **Is the morning report reliable?** Turn the dashboard into a real [web app](https://github.com/sharonlafleur1984/life-hub/issues/16)                               | **Can the owner act without opening five apps?** [Talk to Claude from the dashboard](Backlog)               | **Can someone else use it?** A demo, then coaching sessions and pre-built versions |
-| **Does anything track what's coming due?** The comes-due list (every recurring obligation, 30 days ahead), first in the household build order and tracked privately | **Is private data safe once it leaves Notion?** A login and data rules before any real data reaches the app | **Is it current?** Live counts when the page opens, instead of once a day          |
-| **Is every area covered?** Specialist skills: four of eight written                                                                                                 | **Does it run on its own?** Retire the long morning prompt; the house manager makes every change            |                                                                                    |
+| Now                                                                                                                                                                                                                           | Next                                                                                        | Later                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **A real app:** the Life Hub as tested code on the design system, not a page a prompt rebuilds ([#16](https://github.com/sharonlafleur1984/life-hub/issues/16))                                                               | **Ask Claude without leaving:** a chat in the dashboard ([Backlog](Backlog))                | **Can someone else use it?** A demo, then coaching sessions and pre-built versions |
+| **Mornings that don't break:** a small daily job writes the data, and the page only shows it ([#18](https://github.com/sharonlafleur1984/life-hub/issues/18), [#19](https://github.com/sharonlafleur1984/life-hub/issues/19)) | **Private data stays private:** a login and data rules before any real data reaches the app | **Counts that are current:** live numbers when the page opens, not once a day      |
+| **Nothing comes due by surprise:** every recurring obligation shows up 30 days ahead (tracked privately)                                                                                                                      | **No more long prompt:** the house manager makes every change                               |                                                                                    |
+| **Every area covered:** 4 of 8 specialist skills written                                                                                                                                                                      |                                                                                             |                                                                                    |
 
 ## Milestones
 
@@ -21,9 +22,9 @@
 <details>
 <summary>Already done</summary>
 
-- ✅ Design system and Storybook live, with contrast and visual checks ([design-system-skeleton](https://github.com/sharonlafleur1984/design-system-skeleton))
-- ✅ CI passing on every pull request; security alerts and code scanning on (Oct 2026)
-- ✅ Three homes decided: repo, Notion, Google Drive (Oct 2026)
+- Design system and Storybook live, with contrast and visual checks ([design-system-skeleton](https://github.com/sharonlafleur1984/design-system-skeleton))
+- CI passing on every pull request; security alerts and code scanning on (Oct 2026)
+- Three homes decided: repo, Notion, Google Drive (Oct 2026)
 
 </details>
 
