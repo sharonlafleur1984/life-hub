@@ -2,6 +2,12 @@
 
 [Dashboard](Home)
 
+**Plan**
+
+- [Roadmap](Roadmap)
+- [Tasks](https://github.com/sharonlafleur1984/life-hub/issues)
+- [Backlog](Backlog)
+
 **Research**
 
 - [AI Employee Systems](Research-AI-Employee-Systems)
