@@ -18,11 +18,11 @@ Product and code ideas, in one place. Household ideas stay on the private Idea B
 <details open>
 <summary><b>Ideas</b>: problems worth solving, not yet decided (3)</summary>
 
-| #   | Problem                                            | Recommendation                                                                                       | Status                                                                 |
-| --- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| 1   | Asking Claude anything means leaving the dashboard | A chat in the dashboard header, answered through a Supabase function that keeps the key off the page | Waits on the app shell and a login                                     |
-| 2   | The dashboard only knows what was true at 7 AM     | Live counts when the page opens                                                                      | Rejected for now in the repo plan. Revisit after the daily job is live |
-| 3   | Accessibility problems are found by hand, late     | An automated accessibility check on every pull request                                               | Waits on the first real screens                                        |
+| #   | Problem                                            | Recommendation                                                                                       | Status                                                 |
+| --- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| 1   | Asking Claude anything means leaving the dashboard | A chat in the dashboard header, answered through a Supabase function that keeps the key off the page | Waits on the app shell and a login                     |
+| 2   | The dashboard only knows what was true at 7 AM     | Live counts when the page opens                                                                      | Set aside for now. Revisit after the daily job is live |
+| 3   | Accessibility problems are found by hand, late     | An automated accessibility check on every pull request                                               | Waits on the first real screens                        |
 
 Two more product ideas sit on the private Idea Bench: reacting to events as they happen, and a design review before building. They move here once Sharon decides they belong.
 

@@ -6,12 +6,12 @@ Every source cited in a research page, grouped by page, with how well it was che
 
 **How to read the Status column:**
 
-| Status    | Meaning                                                                                               |
-| --------- | ----------------------------------------------------------------------------------------------------- |
-| Primary   | The research team opened the vendor's or author's own page and saw the claim ([P] in the page)        |
-| Secondary | One blog, review site or news article; not confirmed against a primary page ([S])                     |
-| Vendor    | The source sells a product the claim is about; read with that in mind                                 |
-| Re-check  | The figure reached us through a summarizing fetch rather than the page itself; confirm before quoting |
+| Status    | Meaning                                                                                        |
+| --------- | ---------------------------------------------------------------------------------------------- |
+| Primary   | The research team opened the vendor's or author's own page and saw the claim ([P] in the page) |
+| Secondary | One blog, review site or news article; not confirmed against a primary page ([S])              |
+| Vendor    | The source sells a product the claim is about; read with that in mind                          |
+| Re-check  | The figure came through a summary tool, not the page itself; confirm before quoting            |
 
 Raw research notes are not published. The research pages are the record.
 
