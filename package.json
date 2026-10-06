@@ -21,12 +21,12 @@
     "check": "npm run lint && npm run format && npm run typecheck && npm run test"
   },
   "devDependencies": {
-    "@types/node": "^22.10.0",
-    "@vitest/coverage-v8": "^2.1.0",
-    "eslint": "^9.17.0",
-    "prettier": "^3.4.0",
-    "typescript": "^5.7.0",
-    "typescript-eslint": "^8.19.0",
-    "vitest": "^2.1.0"
+    "@types/node": "^26.6.4",
+    "@vitest/coverage-v8": "^5.0.3",
+    "eslint": "^10.12.0",
+    "prettier": "^3.9.9",
+    "typescript": "^7.0.2",
+    "typescript-eslint": "^8.71.0",
+    "vitest": "^5.0.3"
   }
 }
