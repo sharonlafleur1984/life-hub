@@ -2,11 +2,11 @@
 
 **Last updated:** October 6, 2026
 
-| Now                                                                                                                                   | Next                                                                                                        | Later                                                                              |
-| ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| **Is the morning report reliable?** Turn the dashboard into a real [web app](https://github.com/sharonlafleur1984/life-hub/issues/16) | **Can she act without opening five apps?** [Talk to Claude from the dashboard](Backlog)                     | **Can someone else use it?** A demo, then coaching sessions and pre-built versions |
-| **Does anything track what's coming due?** The comes-due list, the top of the household build order (tracked privately)               | **Is private data safe once it leaves Notion?** A login and data rules before any real data reaches the app | **Live counts** when the page opens, instead of once a day                         |
-| **Is every area covered?** Specialist skills: four of eight written                                                                   | **Does it run without her?** Retire the long morning prompt; one writer for every change                    |                                                                                    |
+| Now                                                                                                                                                                 | Next                                                                                                        | Later                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **Is the morning report reliable?** Turn the dashboard into a real [web app](https://github.com/sharonlafleur1984/life-hub/issues/16)                               | **Can the owner act without opening five apps?** [Talk to Claude from the dashboard](Backlog)               | **Can someone else use it?** A demo, then coaching sessions and pre-built versions |
+| **Does anything track what's coming due?** The comes-due list (every recurring obligation, 30 days ahead), first in the household build order and tracked privately | **Is private data safe once it leaves Notion?** A login and data rules before any real data reaches the app | **Is it current?** Live counts when the page opens, instead of once a day          |
+| **Is every area covered?** Specialist skills: four of eight written                                                                                                 | **Does it run on its own?** Retire the long morning prompt; the house manager makes every change            |                                                                                    |
 
 ## Milestones
 
@@ -29,11 +29,11 @@
 
 ## What could go wrong
 
-| If this happens...                            | ...then                                 | So we're...                                                                                              |
-| --------------------------------------------- | --------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Personal details land in this public repo     | Private family information is public    | Keeping household data in Notion and Supabase only; every pull request is checked for it                 |
-| Structure gets built before anything needs it | Empty databases and screens nobody uses | Building only when something real is waiting to go in it                                                 |
-| Upkeep outgrows the time available            | The system gets abandoned               | Editing and deleting before adding; if it can't be explained in two minutes, it's too complex            |
-| Tool upgrades eat the build time              | Work that protects nothing              | Security fixes only until the app ships ([#20](https://github.com/sharonlafleur1984/life-hub/issues/20)) |
+| If this happens...                            | ...then                                 | So we're...                                                                                                |
+| --------------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Personal details land in this public repo     | Private family information is public    | Keeping household data in Notion and Supabase only, and Sharon reviews every pull request before it merges |
+| Structure gets built before anything needs it | Empty databases and screens nobody uses | Building only when something real is waiting to go in it                                                   |
+| Upkeep outgrows the time available            | The system gets abandoned               | Editing and deleting before adding; if it can't be explained in two minutes, it's too complex              |
+| Tool upgrades eat the build time              | Work that protects nothing              | Security fixes only until the app ships ([#20](https://github.com/sharonlafleur1984/life-hub/issues/20))   |
 
 **Where things live:** [Backlog](Backlog) for ideas. [Issues](https://github.com/sharonlafleur1984/life-hub/issues) for tasks. [Decisions](Decisions) for choices made.
