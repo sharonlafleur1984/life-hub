@@ -7,6 +7,7 @@
 - [Roadmap](Roadmap)
 - [Tasks](https://github.com/sharonlafleur1984/life-hub/issues)
 - [Backlog](Backlog)
+- [Persona](Persona)
 
 **Research**
 

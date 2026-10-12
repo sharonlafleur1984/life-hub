@@ -1,6 +1,6 @@
 # Documents
 
-**Last updated:** October 6, 2026
+**Last updated:** October 11, 2026
 
 Every document in this repo, and when to open it. Open only what matches your task.
 
@@ -12,6 +12,7 @@ Private files (household records, decisions, tasks, anything personal) aren't he
 | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | [Dashboard](Home)                                             | You need the big picture or current status                                                                                           |
 | [Roadmap](Roadmap)                                            | You need what's being built now, next and later, the milestones or the risks                                                         |
+| [Persona](Persona)                                            | You need to know who the Life Hub is for, before designing a screen, writing copy or weighing a feature                              |
 | [Backlog](Backlog)                                            | Adding a product or code idea, or checking whether one was already considered                                                        |
 | [Research: AI Employee Systems](Research-AI-Employee-Systems) | Before changing how the house is organized, how specialists run or what they cost, or before weighing a tool seen in an ad or course |
 | [Research: Finance Software](Research-Finance-Software)       | Before changing budgeting software, adding a finance connector, or deciding how the house reads money without a login                |
