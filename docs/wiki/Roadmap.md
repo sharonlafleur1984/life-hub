@@ -24,7 +24,7 @@
 <details>
 <summary>Already done</summary>
 
-- Design system and Storybook live, with contrast and visual checks ([design-system-skeleton](https://github.com/sharonlafleur1984/design-system-skeleton))
+- Design system and Storybook live, with contrast and visual checks ([lantern-design-system](https://github.com/sharonlafleur1984/lantern-design-system))
 - CI passing on every pull request; security alerts and code scanning on (Oct 2026)
 - Three homes decided: repo, Notion, Google Drive (Oct 2026)
 
