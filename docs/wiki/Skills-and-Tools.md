@@ -1,6 +1,6 @@
 # Skills and Tools
 
-**Last updated:** October 6, 2026
+**Last updated:** October 19, 2026
 
 Which Claude skills and connected tools the house uses. Specialist names are internal to the household and do not appear here; skills are listed by their slug.
 
@@ -24,11 +24,11 @@ Which Claude skills and connected tools the house uses. Specialist names are int
 | Zapier                               | Bridge to what Claude cannot reach directly, today the budgeting app                                                                       | Being narrowed to that role only                                                   |
 | Parallel Search                      | Default web search for every specialist and scheduled run                                                                                  | Free tier, so a few searches at a time; built-in search takes over when it refuses |
 | Google Drive folders                 | Home for physical files (scans, PDFs, leases), one folder per area                                                                         | Linked from Notion; files are never renamed once linked                            |
-| GitHub                               | This repo and its wiki; [design-system-skeleton](https://github.com/sharonlafleur1984/design-system-skeleton) holds the design system code | Every change is a pull request                                                     |
+| GitHub                               | This repo and its wiki; [lantern-design-system](https://github.com/sharonlafleur1984/lantern-design-system) holds the design system docs and wiki; [lantern-code](https://github.com/sharonlafleur1984/lantern-code) holds its code, issues and pull requests | Every change is a pull request                                                     |
 | Figma                                | The Life Hub design system and prototype                                                                                                   | Private file                                                                       |
 | Netlify                              | Hosts the design system's Storybook; will host the Life Hub web app, with a preview link for every pull request                            | Live for Storybook; planned for the app                                            |
 | Supabase                             | Will hold the web app's data and run its server functions                                                                                  | Planned                                                                            |
-| Storybook                            | Shows every design system component, each with a shareable link                                                                            | [Live](https://designsystemskeleton.netlify.app/) for the design system            |
+| Storybook                            | Shows every design system component, each with a shareable link                                                                            | [Live](https://lanterndesignsystem.netlify.app/) for the design system             |
 | Claude scheduled routines            | The daily run                                                                                                                              | Bills against the subscription; fresh session every run, so state lives in Notion  |
 
 ## Research tools used for this wiki
